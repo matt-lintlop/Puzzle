@@ -18,5 +18,6 @@
 - (void) subset_sumRecursive:(NSArray *)numbers target:(int)target partial:(NSArray *)partial;
 
 @property (nonatomic, strong) NSArray<NSNumber*> *populations;
+@property (nonatomic) BOOL done;
 
 @end
