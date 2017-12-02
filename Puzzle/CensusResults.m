@@ -53,16 +53,14 @@
 }
 
 - (void)doTest {
-    NSTimeInterval start = [[[NSDate alloc] init] timeIntervalSinceReferenceDate];
-    @try {
+    dispatch_queue_t aQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_async(aQueue,^{
+        NSTimeInterval start = [[[NSDate alloc] init] timeIntervalSinceReferenceDate];
         [self subset_sum:self.populations target:100000000];
-    }
-    @catch (NSException *e) {
-        
-    }
-    NSTimeInterval end = [[[NSDate alloc] init] timeIntervalSinceReferenceDate];
-    NSTimeInterval elapsed = end - start;
-    NSLog(@"Elapsed = %.6f", elapsed);
+        NSTimeInterval end = [[[NSDate alloc] init] timeIntervalSinceReferenceDate];
+        NSTimeInterval elapsed = end - start;
+        NSLog(@"Elapsed Time = %.6f Seconds", elapsed);
+    });
 }
 
 @end
