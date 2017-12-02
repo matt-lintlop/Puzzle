@@ -19,5 +19,6 @@
 
 @property (nonatomic, strong) NSArray<NSNumber*> *populations;
 @property (nonatomic) BOOL done;
+@property (nonatomic) NSUInteger iterCount;
 
 @end
