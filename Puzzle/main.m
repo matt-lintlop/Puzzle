@@ -13,7 +13,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         CensusResults *censusResults = [[CensusResults alloc] init];
-        [censusResults doTest];
+        [censusResults findPopulationsWithSum:100000000];
    }
     return 0;
 }

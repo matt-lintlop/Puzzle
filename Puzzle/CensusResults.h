@@ -12,13 +12,12 @@
 
 - (instancetype)init;
 
-- (void)doTest;
+- (void)findPopulationsWithSum:(int)sum;
 
 - (void) subset_sum:(NSArray *)numbers target:(int)target;
 - (void) subset_sumRecursive:(NSArray *)numbers target:(int)target partial:(NSArray *)partial;
 
 @property (nonatomic, strong) NSArray<NSNumber*> *populations;
 @property (nonatomic) BOOL done;
-@property (nonatomic) NSUInteger iterCount;
 
 @end
