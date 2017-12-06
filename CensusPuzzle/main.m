@@ -12,9 +12,10 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        printf("Computing Result...\n");
         CensusResults *censusResults = [[CensusResults alloc] init];
         int sum = 100000000;
-        NSArray *results = [censusResults findPopulationsWithSum:100000000];
+        NSArray *results = [censusResults findPopulationsWithSum:1000000001];
         if (results) {
             printf("%ld city population's sum = %d :\n[", results.count, sum);
             [results enumerateObjectsUsingBlock:^(NSNumber*  _Nonnull number, NSUInteger idx, BOOL * _Nonnull stop) {
