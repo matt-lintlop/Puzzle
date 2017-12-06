@@ -1,6 +1,6 @@
 //
 //  main.m
-//  Puzzle
+//  CensusPuzzle
 //
 //  Created by Matthew Lintlop on 12/1/17.
 //  Copyright © 2017 Matthew Lintlop. All rights reserved.

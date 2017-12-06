@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Puzzle.xcodeproj">
+      location = "self:/Users/matthew/Documents/Xcode Projects/Puzzle/CensusPuzzle.xcodeproj">
    </FileRef>
 </Workspace>

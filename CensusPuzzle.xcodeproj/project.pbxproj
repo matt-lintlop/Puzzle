@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		34AEFE871FD2121000D64AB3 /* Puzzle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Puzzle; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AEFE871FD2121000D64AB3 /* CensusPuzzle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CensusPuzzle; sourceTree = BUILT_PRODUCTS_DIR; };
 		34AEFE8A1FD2121000D64AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34AEFE911FD218B300D64AB3 /* CensusResults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CensusResults.h; sourceTree = "<group>"; };
 		34AEFE921FD218B300D64AB3 /* CensusResults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CensusResults.m; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		34AEFE7E1FD2121000D64AB3 = {
 			isa = PBXGroup;
 			children = (
-				34AEFE891FD2121000D64AB3 /* Puzzle */,
+				34AEFE891FD2121000D64AB3 /* CensusPuzzle */,
 				34AEFE881FD2121000D64AB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,27 +52,27 @@
 		34AEFE881FD2121000D64AB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34AEFE871FD2121000D64AB3 /* Puzzle */,
+				34AEFE871FD2121000D64AB3 /* CensusPuzzle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		34AEFE891FD2121000D64AB3 /* Puzzle */ = {
+		34AEFE891FD2121000D64AB3 /* CensusPuzzle */ = {
 			isa = PBXGroup;
 			children = (
 				34AEFE8A1FD2121000D64AB3 /* main.m */,
 				34AEFE911FD218B300D64AB3 /* CensusResults.h */,
 				34AEFE921FD218B300D64AB3 /* CensusResults.m */,
 			);
-			path = Puzzle;
+			path = CensusPuzzle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		34AEFE861FD2121000D64AB3 /* Puzzle */ = {
+		34AEFE861FD2121000D64AB3 /* CensusPuzzle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34AEFE8E1FD2121000D64AB3 /* Build configuration list for PBXNativeTarget "Puzzle" */;
+			buildConfigurationList = 34AEFE8E1FD2121000D64AB3 /* Build configuration list for PBXNativeTarget "CensusPuzzle" */;
 			buildPhases = (
 				34AEFE831FD2121000D64AB3 /* Sources */,
 				34AEFE841FD2121000D64AB3 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Puzzle;
+			name = CensusPuzzle;
 			productName = Puzzle;
-			productReference = 34AEFE871FD2121000D64AB3 /* Puzzle */;
+			productReference = 34AEFE871FD2121000D64AB3 /* CensusPuzzle */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 34AEFE821FD2121000D64AB3 /* Build configuration list for PBXProject "Puzzle" */;
+			buildConfigurationList = 34AEFE821FD2121000D64AB3 /* Build configuration list for PBXProject "CensusPuzzle" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34AEFE861FD2121000D64AB3 /* Puzzle */,
+				34AEFE861FD2121000D64AB3 /* CensusPuzzle */,
 			);
 		};
 /* End PBXProject section */
@@ -256,7 +256,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		34AEFE821FD2121000D64AB3 /* Build configuration list for PBXProject "Puzzle" */ = {
+		34AEFE821FD2121000D64AB3 /* Build configuration list for PBXProject "CensusPuzzle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34AEFE8C1FD2121000D64AB3 /* Debug */,
@@ -265,7 +265,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34AEFE8E1FD2121000D64AB3 /* Build configuration list for PBXNativeTarget "Puzzle" */ = {
+		34AEFE8E1FD2121000D64AB3 /* Build configuration list for PBXNativeTarget "CensusPuzzle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34AEFE8F1FD2121000D64AB3 /* Debug */,

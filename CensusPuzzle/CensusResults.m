@@ -1,6 +1,9 @@
 //
 //  CensusResults.m
-//  Puzzle
+//  CensusPuzzle
+//
+//  Given a list of 26 city census polulations, find the polulations
+//  whose sum = 100 million (100,000,000).
 //
 //  Created by Matthew Lintlop on 12/1/17.
 //  Copyright © 2017 Matthew Lintlop. All rights reserved.
