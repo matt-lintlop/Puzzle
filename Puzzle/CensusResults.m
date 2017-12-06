@@ -44,7 +44,7 @@
     // exit if done.
     if (sum >= target) return;
     
-    
+    // recursively comptute the partial sums of remaining elements
     for (int index = 0; index < numbers.count; index++) {
         NSMutableArray<NSNumber*>* remaining = [NSMutableArray array];
         for (int index2 = index+1; index2 < numbers.count; index2++) {
